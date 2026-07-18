@@ -14,11 +14,13 @@ export default function CTA() {
           </h2>
           <p className="mb-8 text-white/60">Book your free AI audit today — no cost, no commitment.</p>
           <a
-            href="#"
+            href="https://calendly.com/hashmihumna57/free-consulting"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-accent text-ink font-medium px-7 py-3.5 rounded-full hover:bg-accent-dark hover:-translate-y-0.5 transition-all"
           >
             Book Free AI Audit
-          </a>
+          </a>     
         </div>
       </Reveal>
     </section>
