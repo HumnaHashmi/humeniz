@@ -1,18 +1,11 @@
 import Reveal from './Reveal.jsx'
 
 const points = [
-  {
-    title: 'Built around your workflow',
-    text: 'Every AI system is customized to how your business actually runs — not a generic template.',
-  },
-  {
-    title: 'We stay after launch',
-    text: 'We monitor, adjust, and improve your AI team every month — it gets better the longer we work together.',
-  },
-  {
-    title: 'Outcomes, not features',
-    text: "We're focused on what changes for your business — more booked calls, faster replies, fewer things falling through the cracks.",
-  },
+  { title: 'We understand your business first', text: 'No system gets built until we know exactly how you work.' },
+  { title: 'Custom-built, not templated', text: 'Every AI system is built around your workflow — not a one-size-fits-all bot.' },
+  { title: 'Works with what you already use', text: "It connects to your existing calendar, CRM, and inbox — nothing to switch." },
+  { title: 'We stay after launch', text: 'We monitor and improve your system every month, for as long as we work together.' },
+  { title: 'Outcomes, not tools', text: "We're judged on booked calls and faster replies — not on which AI model we used." },
 ]
 
 export default function WhyHumeniz() {

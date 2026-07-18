@@ -14,7 +14,7 @@ export default function TrustedBy() {
     <section className="border-y border-border bg-graybg overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 pt-10">
         <p className="text-center font-mono text-xs mb-6 text-muted">
-          TRUSTED BY SERVICE BUSINESSES ACROSS INDUSTRIES
+            AI SOLUTIONS FOR EVERY STAGE OF YOUR BUSINESS
         </p>
       </div>
       <div

@@ -1,13 +1,14 @@
 import { ArrowDown } from 'lucide-react'
 import Reveal from './Reveal.jsx'
 
-const problems = [
-  { title: 'Losing leads', text: 'AI captures and follows up automatically, the moment someone reaches out.' },
-  { title: 'Missed calls', text: 'An AI receptionist answers around the clock, so no call goes unanswered.' },
-  { title: 'Too much manual work', text: "AI takes over the repetitive tasks eating into your team's day." },
-  { title: 'Slow customer support', text: 'Customers get an instant, accurate response — day or night.' },
-]
+import { UserX, PhoneMissed, Clock, Repeat, Cable } from 'lucide-react'
 
+const problems = [
+  { icon: UserX, title: 'Lost leads', text: "Someone reaches out and never hears back in time — so they go to a competitor." },
+  { icon: PhoneMissed, title: 'Missed calls', text: "Every unanswered call is a customer who just found someone else." },
+  { icon: Clock, title: 'Slow support', text: "Customers expect an answer in minutes, not by tomorrow." },
+  { icon: Repeat, title: 'Manual work', text: "Your team spends hours a day on tasks that don't need a human." },
+]
 export default function Problems() {
   return (
     <section className="max-w-6xl mx-auto px-6 py-24">
