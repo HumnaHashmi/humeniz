@@ -9,6 +9,7 @@ import BeforeAfter from './components/BeforeAfter.jsx'
 import WhyHumeniz from './components/WhyHumeniz.jsx'
 import CTA from './components/CTA.jsx'
 import Footer from './components/Footer.jsx'
+import ChatWidget from './components/ChatWidget.jsx'
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
       <WhyHumeniz />
       <CTA />
       <Footer />
+      <ChatWidget />
     </>
   )
 }
